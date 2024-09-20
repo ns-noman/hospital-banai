@@ -2,6 +2,23 @@
 <html lang="en">
 
 <head>
+    <style>
+        .custom-ul {
+            list-style-type: none;
+            padding-left: 20px; /* Adjusts space between bullet and text */
+            position: relative;
+        }
+        .custom-ul li {
+            margin-bottom: 10px;
+            padding-left: 20px; /* Ensures there's enough space for the bullet */
+        }
+        .custom-ul li::before {
+            content: "◆"; /* The diamond bullet */
+            position: absolute;
+            left: 0; /* Positions the bullet before the text */
+            color: #0088cc; /* Adjust the color of the bullet */
+        }
+    </style>
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -144,7 +161,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
                         <h2>Who we are?</h2>
                         <!-- <h3>Full Stack Developer</h3> -->
@@ -155,7 +172,7 @@
                             educational/institutional set up, healthcare research/survey, healthcare financing,
                             investment along with healthcare IT, staffs training/capacity development etc.</p>
                         <p><br><b>The professionals included in our team are –</b></p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Doctors, Public Health Expert, Biomedical Equipment Specialist, Laboratory Technician,
                                 Nurses, Pharmacist</li>
                             <li>Healthcare Researcher, Healthcare Sales/Marketing Expert</li>
@@ -170,13 +187,19 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 120px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about2.jpg"  class="img-responsive" alt="about image">
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
                         <h2>What we do?</h2>
-                        <!-- <h3>Full Stack Developer</h3> -->
-                        <p><br><b>Hospital Healthcare project
-                                Consultancy/establishment:</b><br></p>
-                        <ul>
+                        <p><b>Hospital Healthcare project Consultancy/establishment:</b><br></p>
+                        <ul class="custom-ul">
                             <li>Project feasibility study, complete project technical narrative &amp; detailed budget
                                 preparation</li>
                             <li>Project funding/financing related bank/investors document preparation, networking,
@@ -204,107 +227,116 @@
                             <li>Buying &amp; selling support for any types of hospital/healthcare project</li>
                             <li>Any other support, if required</li>
                         </ul>
-                        <p><br><b>Healthcare management:</b></p>
-                        <ul>
-                            <li>Management Committee formation, organogram preparation, staffing</li>
-                            <li>Technical, operational, sales/marketing, financial, administrative, policy
-                                management</li>
-                            <li>Specific management support, detailed planning, technical guidance for diagnostic
-                                laboratory, Operation Theatre Complex, Out Patient Services (OPD), individual clinical
-                                services department/center, Nursing services, store/stock management,
-                                Finance/Accounting, Field Marketing, Quality Assurance etc.</li>
-                            <li>Taking partial or full management, operational, marketing, business responsibility of
-                                hospital/healthcare project, if required</li>
-                        </ul>
-                        <p><br><b>Healthcare sales/marketing:</b></p>
-                        <ul>
-                            <li>Detailed organogram, staffing, recruitment</li>
-                            <li>Detailed technical, operational, clinical, field aspects, Doctor aspects capacity
-                                building of marketing people including team building, coordination, networking,
-                                referral</li>
-                            <li>Detailed written technical manual, operational guideline (Standard Operational
-                                Procedure/SOP), clinical guidelines, Networking/referral guidelines etc</li>
-                            <li>Monthly, quarterly, half yearly, annual sales target for individual, teams, prepare
-                                forecasting, periodic guidance, policy/strategy adjustment</li>
-                            <li>Preparation of all types of marketing &amp; promotional materials</li>
-                        </ul>
-                        <p><br><b>Biomedical Equipment &amp; healthcare Industry:</b></p>
-                        <ul>
-                            <li>Detailed technical specification preparation, required list preparation of equipment,
-                                furniture’s</li>
-                            <li>Vendor selection process</li>
-                            <li>Purchasing process support</li>
-                            <li>Payment, &amp; financial settlement aspects for suppliers</li>
-                            <li>Installation, operational support</li>
-                            <li>Detailed technical, managerial, operational support for setting up any biomedical
-                                company (Principal sourcing, products finalization, operation, marketing mechanism
-                                etc.</li>
-                        </ul>
-                        <p><br><b>Healthcare capacity building:</b></p>
-                        <ul>
-                            <li>Job advertisement preparation for all posts</li>
-                            <li>CV short listing, interview call</li>
-                            <li>Staff recruitment process &amp; selection finalization support</li>
-                            <li>Detailed technical, managerial, operational capacity development training for each
-                                staffs &amp; team</li>
-                            <li>Key Performance Indicator (KPI) preparation for each staff</li>
-                            <li>Witten assessment, evaluation, promotional policy, criteria</li>
-                        </ul>
-                        <p><br><b>Healthcare IT:</b></p>
-                        <ul>
-                            <li>Preparation of any kinds of customized, tailormade software for laboratory, outdoor,
-                                indoor, pharmacy, operation theatre, Doctor, Nursing services, store/stock, accounting
-                                department, sales/marketing team and any other service if required</li>
-                            <li>Capacity development training of all relevant staffs on these software</li>
-                            <li>Any types of servicing, maintenance as required for any type’s software</li>
-                            <li>Networking setting among departments, software integration, digital automation as
-                                required</li>
-                        </ul>
-                        <p><br><b>Healthcare Education:</b></p>
-                        <ul>
-                            <li>Establishment of Medical Assistant Training Center (MATS), Nursing Institute/College,
-                                Private Medical College</li>
-                            <li>Detailed feasibility, planning, technical, operational plan of these projects</li>
-                            <li>Bringing new technology, concept, knowledge, courses on Medical Education, from outside
-                                if found suitable client</li>
-                        </ul>
-                        <p><br><b>Healthcare Survey &amp; Research:</b></p>
-                        <ul>
-                            <li>Any types of survey/research activities in community health, Public Health, Clinical
-                                Health</li>
-                            <li>Case Control, Observatory, Cross Sectional, Costing, Impact, project Feasibility,
-                                Clinical Trial &amp; other types of healthcare study</li>
-                            <li>Joint study with any university or for foreign NGO, multinational donor agency, MNC
-                                etc.</li>
-                            <li>Research &amp; Development (R&amp;D) on new hospital/healthcare project design,
-                                laboratory, community health, health tech, drugs, biotechnology concept, theory
-                                invention &amp; establishment</li>
-                        </ul>
-                        <div><br></div>
                     </div>
                 </div>
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12"></div>
-                <div style="text-align: left;">
-                    <h2>Our Vision</h2>
-                    <ul>
-                        <li>A high quality, technologically advanced, patient centric healthcare system in Bangladesh.
-                        </li>
-                        <li>Adequate sophisticated medical & surgical treatment facilities for our people which are now
-                            inadequate (Medical: ICU/CCU/NICU/PICU, Dialysis, Chemotherapy. Surgical: Cardiothoracic
-                            surgery, Neurosurgery, Plastic/reconstructive surgery, Bariatric surgery, Head/neck surgery,
-                            Assisted Reproductive surgery, Urology).</li>
-                        <li>Regional level availability of above mentioned sophisticated, clinical services, so that
-                            people dependency on Dhaka reduced.</li>
-                        <li>Better, efficient, professional hospital/healthcare sector management, operation,
-                            sales/marketing in country.</li>
-                        <li>Bangladesh become self-reliant on medical equipment, devices, kits, reagents, medical
-                            furniture now import.</li>
-                        <li>International standard super specialty, multi-specialty hospital establishment in regional &
-                            national level.</li>
-                        <li>International standard Medical College, University, Nursing College/university establishment
-                            in Bangladesh.</li>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <p><br><b>Healthcare management:</b></p>
+                    <ul class="custom-ul">
+                        <li>Management Committee formation, organogram preparation, staffing</li>
+                        <li>Technical, operational, sales/marketing, financial, administrative, policy
+                            management</li>
+                        <li>Specific management support, detailed planning, technical guidance for diagnostic
+                            laboratory, Operation Theatre Complex, Out Patient Services (OPD), individual clinical
+                            services department/center, Nursing services, store/stock management,
+                            Finance/Accounting, Field Marketing, Quality Assurance etc.</li>
+                        <li>Taking partial or full management, operational, marketing, business responsibility of
+                            hospital/healthcare project, if required</li>
                     </ul>
-                    <br>
+                    <p><br><b>Healthcare sales/marketing:</b></p>
+                    <ul class="custom-ul">
+                        <li>Detailed organogram, staffing, recruitment</li>
+                        <li>Detailed technical, operational, clinical, field aspects, Doctor aspects capacity
+                            building of marketing people including team building, coordination, networking,
+                            referral</li>
+                        <li>Detailed written technical manual, operational guideline (Standard Operational
+                            Procedure/SOP), clinical guidelines, Networking/referral guidelines etc</li>
+                        <li>Monthly, quarterly, half yearly, annual sales target for individual, teams, prepare
+                            forecasting, periodic guidance, policy/strategy adjustment</li>
+                        <li>Preparation of all types of marketing &amp; promotional materials</li>
+                    </ul>
+                    <p><br><b>Biomedical Equipment &amp; healthcare Industry:</b></p>
+                    <ul class="custom-ul">
+                        <li>Detailed technical specification preparation, required list preparation of equipment,
+                            furniture’s</li>
+                        <li>Vendor selection process</li>
+                        <li>Purchasing process support</li>
+                        <li>Payment, &amp; financial settlement aspects for suppliers</li>
+                        <li>Installation, operational support</li>
+                        <li>Detailed technical, managerial, operational support for setting up any biomedical
+                            company (Principal sourcing, products finalization, operation, marketing mechanism
+                            etc.</li>
+                    </ul>
+                    <p><br><b>Healthcare capacity building:</b></p>
+                    <ul class="custom-ul">
+                        <li>Job advertisement preparation for all posts</li>
+                        <li>CV short listing, interview call</li>
+                        <li>Staff recruitment process &amp; selection finalization support</li>
+                        <li>Detailed technical, managerial, operational capacity development training for each
+                            staffs &amp; team</li>
+                        <li>Key Performance Indicator (KPI) preparation for each staff</li>
+                        <li>Witten assessment, evaluation, promotional policy, criteria</li>
+                    </ul>
+                    <p><br><b>Healthcare IT:</b></p>
+                    <ul class="custom-ul">
+                        <li>Preparation of any kinds of customized, tailormade software for laboratory, outdoor,
+                            indoor, pharmacy, operation theatre, Doctor, Nursing services, store/stock, accounting
+                            department, sales/marketing team and any other service if required</li>
+                        <li>Capacity development training of all relevant staffs on these software</li>
+                        <li>Any types of servicing, maintenance as required for any type’s software</li>
+                        <li>Networking setting among departments, software integration, digital automation as
+                            required</li>
+                    </ul>
+                    <p><br><b>Healthcare Education:</b></p>
+                    <ul class="custom-ul">
+                        <li>Establishment of Medical Assistant Training Center (MATS), Nursing Institute/College,
+                            Private Medical College</li>
+                        <li>Detailed feasibility, planning, technical, operational plan of these projects</li>
+                        <li>Bringing new technology, concept, knowledge, courses on Medical Education, from outside
+                            if found suitable client</li>
+                    </ul>
+                    <p><br><b>Healthcare Survey &amp; Research:</b></p>
+                    <ul class="custom-ul">
+                        <li>Any types of survey/research activities in community health, Public Health, Clinical
+                            Health</li>
+                        <li>Case Control, Observatory, Cross Sectional, Costing, Impact, project Feasibility,
+                            Clinical Trial &amp; other types of healthcare study</li>
+                        <li>Joint study with any university or for foreign NGO, multinational donor agency, MNC
+                            etc.</li>
+                        <li>Research &amp; Development (R&amp;D) on new hospital/healthcare project design,
+                            laboratory, community health, health tech, drugs, biotechnology concept, theory
+                            invention &amp; establishment</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div style="text-align: left;">
+                        <h2>Our Vision</h2>
+                        <ul class="custom-ul">
+                            <li>A high quality, technologically advanced, patient centric healthcare system in Bangladesh.
+                            </li>
+                            <li>Adequate sophisticated medical & surgical treatment facilities for our people which are now
+                                inadequate (Medical: ICU/CCU/NICU/PICU, Dialysis, Chemotherapy. Surgical: Cardiothoracic
+                                surgery, Neurosurgery, Plastic/reconstructive surgery, Bariatric surgery, Head/neck surgery,
+                                Assisted Reproductive surgery, Urology).</li>
+                            <li>Regional level availability of above mentioned sophisticated, clinical services, so that
+                                people dependency on Dhaka reduced.</li>
+                            <li>Better, efficient, professional hospital/healthcare sector management, operation,
+                                sales/marketing in country.</li>
+                            <li>Bangladesh become self-reliant on medical equipment, devices, kits, reagents, medical
+                                furniture now import.</li>
+                            <li>International standard super specialty, multi-specialty hospital establishment in regional &
+                                national level.</li>
+                            <li>International standard Medical College, University, Nursing College/university establishment
+                                in Bangladesh.</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about3.jpg"  class="img-responsive" alt="about image">
                 </div>
             </div>
         </div>
@@ -328,7 +360,7 @@
                     <div style="text-align: left;">
                         <h3>Project planning</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Project Commercial Viability Study</li>
                             <li>Project Technical/Operational Feasibility Study</li>
                             <li>Project Brief Technical Concept Preparation / Project Design</li>
@@ -346,7 +378,7 @@
                     <div style="text-align: left;">
                         <h3>Project Implementation & Construction</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Land acquisition & development (if required)</li>
                             <li>Detailed project Architectural design planning & design finalization (through suitable
                                 hospital Architecture firm)</li>
@@ -367,7 +399,7 @@
                     <div style="text-align: left;">
                         <h3>Human Resources & Biomedical Equipment</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Human resources recruitment process, finalization of selection, appointment</li>
                             <li>All process for biomedical equipment’s, diagnostics, medical furniture’s, Oxygen plant
                                 purchase, installation including technical training for relevant technicians</li>
@@ -380,7 +412,7 @@
                     <div style="text-align: left;">
                         <h3>Operation & management</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Team building, coordination mechanism, task-oriented capacity building training of
                                 staffs to ensure efficient discharge of duties & responsibilities</li>
                             <li>Regular management support to operate newly inaugurated project</li>
@@ -395,7 +427,7 @@
                     <div style="text-align: left;">
                         <h3>Service Quality & Excellence</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Detailed writing of Standard Operational Procedure (SOP) for each type of clinical
                                 services delivered or each clinical & non clinical department</li>
                             <li>Formulation of Key Performance Indicators (KPI) for each clinical, non-clinical,
@@ -413,7 +445,7 @@
                     <div style="text-align: left;">
                         <h3>Sales/marketing</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Sales, revenue target set up. Preparation of detailed marketing operational plan for
                                 achieving that.</li>
                             <li>Quarterly, half yearly, annual sales/marketing plan, technical guidance module</li>
@@ -427,7 +459,7 @@
                     <div style="text-align: left;">
                         <h3>Licensing & legal</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Company formation</li>
                             <li>VAT, TAX certification</li>
                             <li>Trade license</li>
@@ -447,7 +479,7 @@
                     <div style="text-align: left;">
                         <h3>Service Quality & Excellence</h3>
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>Company annual financial statement, asset, liability, funding feasibility study</li>
                             <li>Preparing & helping for all types of process documentation after due diligence</li>
                             <li>All technical collaboration with funding agency & fund recipient</li>
@@ -475,7 +507,7 @@
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
                     <div style="text-align: left;">
                         <p>
-                        <ul>
+                        <ul class="custom-ul">
                             <li>We don’t tell clients “You require to do 300/500 beds hospital”. We try to understand &
                                 feel our clients' dream & expectations on his/her projects.</li>
                             <li>We have more than 100 different types of project design already prepared, ranging from
@@ -531,7 +563,7 @@
                     <div style="text-align: left;">
                         <h3>Innovation & Development In Healthcare</h3>
                         <p>
-                            <ul>
+                            <ul class="custom-ul">
                                 <li>We have prepared our long & detailed project lists in hospital/healthcare, medical equipment, healthcare research, healthcare marketing etc. through not observing or following what type projects went well in Bangladesh before, we have prepared our project lists considering what are those projects required most for transforming & advancing healthcare sector, systems & service delivery in Bangladesh.</li>
                                 <li>Projects like a) First ever only for female hospital b) International standard Infertility center c) Fully functional major organs transplantation center d) Specialized surgical center for all sophisticated surgeries e) Comprehensive Advanced Genetic & Molecular Laboratory f) Comprehensive Physiotherapy & Physical Rehabilitation center – these projects might not be heard much before, but for Bangladesh these are required.</li>
                                 <li>We focus on newer venture for manufacturing medical equipment Bangladesh imports.</li>
@@ -545,7 +577,7 @@
                     <div style="text-align: left;">
                         <h3>Why we stand separate in healthcare consultancy?</h3>
                         <p>
-                            <ul>
+                            <ul class="custom-ul">
                                 <li>We focus on client’s mission, vision, expectations from us and prepare project design, technical/operational details of projects according to client’s expectations.</li>
                                 <li>We do not suggest our clients for big budget, risky project (if client don’t have huge budget), we do project design which can ensure best possible Return On Investment (ROI) using the client budget/fund.</li>
                                 <li>We support client for realizing funds (if required) through all of our technical, operational, networks.</li>

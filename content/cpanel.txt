@@ -1,0 +1,43 @@
++===================================+
+
+| New Account Info                  |
+
++===================================+
+
+| Domain: hospitalbanai.com
+
+| Ip: 107.6.113.228 (n)
+
+| HasCgi: y
+
+| UserName: hospitalbanai
+
+| PassWord: Hospitalbanai@1234
+
+| CpanelMod: jupiter
+
+| HomeRoot: /home
+
+| Quota: 2 GB
+
+| NameServer1: ns1.sdlhms.com
+
+| NameServer2: ns2.sdlhms.com
+
+| NameServer3:
+
+| NameServer4:
+
+| Contact Email:
+
+| Package: sdlhmsco_apps_gold
+
+| Feature List: default
+
+| Account Enhancements: None
+
+| Language: en
+
++===================================+
+
+...Done
