@@ -364,7 +364,7 @@ img {
 
 
 .banner-area{
-    background-image: url(../images/home/home-bg.jpg); /*--edit image--*/ 
+    background-image: url(../images/home/home-bg-1.jpg); /*--edit image--*/ 
     background-position: center;
     background-size:cover;
     position: relative;
@@ -607,6 +607,158 @@ canvas{
 }
 
 /*--------------- Services area ends --------------*/
+
+
+
+
+/*---------------7. Speciality area Starts--------------*/
+
+.speciality-area {
+	background: #F3F4F3;
+}
+
+.speciality-icon i {
+	font-size: 35px;
+	color: #E91E63;
+}
+
+.single-speciality:hover i{
+	color: #212121;
+}
+
+.speciality-content h3 {
+	line-height: 1.9;
+	text-transform: uppercase;
+}
+
+.speciality-icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.single-speciality {
+	padding: 40px 20px;
+	margin: 0 15px 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.single-speciality:hover {
+	-webkit-transition: ease .09s;
+	-o-transition: ease .09s;
+	transition: ease .09s;
+}
+
+.single-speciality:hover .speciality-icon{
+	-webkit-transition: ease .3s;
+	-o-transition: ease .3s;
+	transition: ease .3s;
+}
+
+.single-speciality:hover .speciality-icon i {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: .9s;
+	-o-transition: .9s;
+	transition: .9s;
+}
+
+.single-speciality:hover {
+	-webkit-transition: .9s;
+	-o-transition: .9s;
+	transition: .9s;
+}
+
+.single-speciality:hover .speciality-content {
+	color: #000000;
+}
+
+.single-speciality:hover .speciality-content h3 {
+	color: #E91E63;
+}
+
+/*--------------- Speciality area ends --------------*/
+
+
+
+/*---------------7. messages area Starts--------------*/
+
+.messages-area {
+	/* background: #F3F4F3; */
+}
+
+.messages-icon i {
+	font-size: 35px;
+	color: #E91E63;
+}
+
+.single-messages:hover i{
+	color: #212121;
+}
+
+.messages-content h3 {
+	line-height: 1.9;
+	text-transform: uppercase;
+}
+
+.messages-icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.single-messages {
+	padding: 40px 20px;
+	margin: 0 15px 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.single-messages:hover {
+	-webkit-transition: ease .09s;
+	-o-transition: ease .09s;
+	transition: ease .09s;
+}
+
+.single-messages:hover .messages-icon{
+	-webkit-transition: ease .3s;
+	-o-transition: ease .3s;
+	transition: ease .3s;
+}
+
+.single-messages:hover .messages-icon i {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: .9s;
+	-o-transition: .9s;
+	transition: .9s;
+}
+
+.single-messages:hover {
+	-webkit-transition: .9s;
+	-o-transition: .9s;
+	transition: .9s;
+}
+
+.single-messages:hover .messages-content {
+	color: #000000;
+}
+
+.single-messages:hover .messages-content h3 {
+	color: #E91E63;
+}
+
+/*--------------- messages area ends --------------*/
+
+
+
 
 /*-------- 8. Number area css starts-----------*/
 
@@ -908,6 +1060,7 @@ canvas{
 
 .single-contact {
     margin-bottom: 50px;
+    height: 200px;
 }
 
 .contact-area .form-control{
