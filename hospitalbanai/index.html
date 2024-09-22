@@ -19,6 +19,128 @@
             color: #0088cc; /* Adjust the color of the bullet */
         }
     </style>
+    <style>
+     /* Basic styles for dropdown */
+        .navbar-nav .dropdown-menu {
+            display: none; /* Hide the dropdown by default */
+            position: absolute; /* Position it relative to the parent */
+            z-index: 1000; /* Ensure it appears above other elements */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+            list-style: none; /* Remove bullet points */
+            background-color: white; /* Set background color for visibility */
+            border: 1px solid #ccc; /* Add border for the dropdown */
+        }
+
+        /* Show dropdown on hover */
+        .navbar-nav .dropdown:hover .dropdown-menu {
+            display: block; /* Show the dropdown when hovering over the parent */
+        }
+
+        /* Styling for the list items */
+        .navbar-nav .dropdown-menu li {
+            display: block; /* Make items block-level for stacking */
+        }
+
+        /* Links in dropdown */
+        .navbar-nav .dropdown-menu a {
+            display: block; /* Make links block-level */
+            padding: 10px; /* Add padding for clickable area */
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit color from parent */
+        }
+
+        /* Optional: Change link color on hover */
+        .navbar-nav .dropdown-menu a:hover {
+            background-color: #868686; /* Change background color on hover */
+        }
+
+        /* Make sure dropdown has proper alignment */
+        .navbar-nav .dropdown {
+            position: relative; /* Allow absolute positioning of dropdown */
+        }
+
+        /* Align dropdown to the left of the smooth-menu */
+        .navbar-nav .dropdown-menu {
+            left: 0; /* Aligns dropdown menu with the left edge of the dropdown */
+            top: 100%; /* Position it directly below the parent menu item */
+            width: auto; /* Adjust width as needed */
+        }
+        .nav>li>a {
+            padding: 10px 5px!important;
+        }
+
+    </style>
+
+
+    <!-- <style>
+        Basic styles for dropdown
+        .navbar-nav .dropdown-menu {
+            display: none; /* Hide the dropdown by default */
+            position: absolute; /* Position it relative to the parent */
+            z-index: 1000; /* Ensure it appears above other elements */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+            list-style: none; /* Remove bullet points */
+            background-color: white; /* Set background color for visibility */
+            border: 1px solid #ccc; /* Add border for the dropdown */
+            width: 200px; /* Set a width for the dropdown */
+        }
+
+        /* Show dropdown on hover */
+        .navbar-nav .dropdown:hover .dropdown-menu {
+            display: block; /* Show the dropdown when hovering over the parent */
+        }
+
+        /* Styling for the list items */
+        .navbar-nav .dropdown-menu li {
+            display: block; /* Make items block-level for stacking */
+        }
+
+        /* Links in dropdown */
+        .navbar-nav .dropdown-menu a {
+            display: block; /* Make links block-level */
+            padding: 10px 15px; /* Add padding for clickable area */
+            text-decoration: none; /* Remove underline */
+            color: #333; /* Set text color */
+        }
+
+        /* Optional: Change link color on hover */
+        .navbar-nav .dropdown-menu a:hover {
+            background-color: #aeb5bc; /* Change background color on hover */
+        }
+
+        /* Make sure dropdown has proper alignment */
+        .navbar-nav .dropdown {
+            position: relative; /* Allow absolute positioning of dropdown */
+        }
+
+        /* Align dropdown to the left edge of the parent menu */
+        .navbar-nav .dropdown-menu {
+            left: 0; /* Aligns the dropdown with the left edge of the main menu item */
+            top: 100%; /* Position it directly below the parent menu item */
+            width: auto; /* Auto width or set fixed width as needed */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow for depth */
+        }
+
+        /* Optional: Smooth transition when hovering */
+        .navbar-nav .dropdown-menu {
+            transition: opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+
+        .navbar-nav .dropdown:hover .dropdown-menu {
+            opacity: 1;
+        }
+
+        .nav>li>a {
+            padding: 10px 5px!important;
+        }
+
+    </style> -->
+
+
+
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -89,6 +211,54 @@
                                 <nav>
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#mission">Our Mission</a></li>
+                                                <li><a href="#team">Our Team</a></li>
+                                                <li><a href="#history">Our History</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#services">Services <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#consulting">Consulting</a></li>
+                                                <li><a href="#development">Development</a></li>
+                                                <li><a href="#design">Design</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#messages">Message <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#feedback">Feedback</a></li>
+                                                <li><a href="#support">Support</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="smooth-menu" href="#speciality">Speciality</a></li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#portfolio">Projects <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#web-projects">Web Projects</a></li>
+                                                <li><a href="#mobile-projects">Mobile Projects</a></li>
+                                                <li><a href="#case-studies">Case Studies</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#testimonial">Testimonial <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#client-reviews">Client Reviews</a></li>
+                                                <li><a href="#success-stories">Success Stories</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            
+                            <!-- <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
                                         <li><a class="smooth-menu" href="#about">About Us</a></li>
                                         <li><a class="smooth-menu" href="#services">Services</a></li>
                                         <li><a class="smooth-menu" href="#messages">Message</a></li>
@@ -98,11 +268,10 @@
                                         <li><a class="smooth-menu" href="#contact">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
-
                 <!--main menu ends-->
             </div>
         </div>
@@ -138,7 +307,7 @@
                                     <a href="#contact" class="banner-btn">Contact me</a>
                                 </section>
                                 <div class="clearfix"></div>
-                                <a class="mouse-scroll hidden-xs" href="#about">
+                                <a class="mouse-scroll hidden-xs" href="#brands">
                                     <span class="mouse">
                                         <span class="mouse-movement"></span>
                                     </span>
@@ -151,6 +320,66 @@
         </div>
     </div>
     <!--Banner area ends-->
+
+    <!--Brand area starts-->
+    <div id="brands" class="brand-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Our Brands</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="./frontend-assets/images/brand/brand-1.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="./frontend-assets/images/brand/brand-2.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="./frontend-assets/images/brand/brand-3.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="./frontend-assets/images/brand/brand-4.png" alt="brand image">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="./frontend-assets/images/brand/brand-5.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="./frontend-assets/images/brand/brand-6.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="./frontend-assets/images/brand/brand-7.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="./frontend-assets/images/brand/brand-8.png" alt="brand image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Brand area ends-->
 
     <!--about area starts-->
     <div class="about-area section-padding" id="about">
@@ -165,31 +394,28 @@
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
-                        <h2>Who we are?</h2>
-                        <!-- <h3>Full Stack Developer</h3> -->
-                        <p>We are a group of professionals with long experience &amp; expertise in various fields, those
-                            required to plan, design, implement/construct, operating/managing, marketing/sales of any
-                            types of hospital/healthcare project. We also have significant expertise in the areas of
-                            biomedical equipment, hospital/healthcare project sales/marketing, healthcare
-                            educational/institutional set up, healthcare research/survey, healthcare financing,
-                            investment along with healthcare IT, staffs training/capacity development etc.</p>
-                        <p><br><b>The professionals included in our team are –</b></p>
+                        <h2>Our Vision</h2>
                         <ul class="custom-ul">
-                            <li>Doctors, Public Health Expert, Biomedical Equipment Specialist, Laboratory Technician,
-                                Nurses, Pharmacist</li>
-                            <li>Healthcare Researcher, Healthcare Sales/Marketing Expert</li>
-                            <li>Hospital/diagnostic center, Nursing Institute and any other healthcare project
-                                Architect, Interior Decoration Expert</li>
-                            <li>Hospital/healthcare project Civil Engineering Consultant, Mechanical/Electrical/Plumbing
-                                (MEP) Consultant, Humidity/Ventilation/Air Condition (HVAC) Consultant</li>
-                            <li>Oracle Certified Programmer &amp; hospital IT expert</li>
-                            <li>Chartered Accountant, Advocate, Banker</li>
-                            <li>All types of hospital/healthcare project licenses, certification, permission
-                                expert</li>
+                            <li>A high quality, technologically advanced, patient centric healthcare system in Bangladesh.
+                            </li>
+                            <li>Adequate sophisticated medical & surgical treatment facilities for our people which are now
+                                inadequate (Medical: ICU/CCU/NICU/PICU, Dialysis, Chemotherapy. Surgical: Cardiothoracic
+                                surgery, Neurosurgery, Plastic/reconstructive surgery, Bariatric surgery, Head/neck surgery,
+                                Assisted Reproductive surgery, Urology).</li>
+                            <li>Regional level availability of above mentioned sophisticated, clinical services, so that
+                                people dependency on Dhaka reduced.</li>
+                            <li>Better, efficient, professional hospital/healthcare sector management, operation,
+                                sales/marketing in country.</li>
+                            <li>Bangladesh become self-reliant on medical equipment, devices, kits, reagents, medical
+                                furniture now import.</li>
+                            <li>International standard super specialty, multi-specialty hospital establishment in regional &
+                                national level.</li>
+                            <li>International standard Medical College, University, Nursing College/university establishment
+                                in Bangladesh.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 60px 0px 0px 0px !important;">
                     <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
                 </div>
             </div>
@@ -328,31 +554,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 60px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
-                </div>
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
-                        <h2>Our Vision</h2>
+                        <h2>Who we are?</h2>
+                        <!-- <h3>Full Stack Developer</h3> -->
+                        <p>We are a group of professionals with long experience &amp; expertise in various fields, those
+                            required to plan, design, implement/construct, operating/managing, marketing/sales of any
+                            types of hospital/healthcare project. We also have significant expertise in the areas of
+                            biomedical equipment, hospital/healthcare project sales/marketing, healthcare
+                            educational/institutional set up, healthcare research/survey, healthcare financing,
+                            investment along with healthcare IT, staffs training/capacity development etc.</p>
+                        <p><br><b>The professionals included in our team are –</b></p>
                         <ul class="custom-ul">
-                            <li>A high quality, technologically advanced, patient centric healthcare system in Bangladesh.
-                            </li>
-                            <li>Adequate sophisticated medical & surgical treatment facilities for our people which are now
-                                inadequate (Medical: ICU/CCU/NICU/PICU, Dialysis, Chemotherapy. Surgical: Cardiothoracic
-                                surgery, Neurosurgery, Plastic/reconstructive surgery, Bariatric surgery, Head/neck surgery,
-                                Assisted Reproductive surgery, Urology).</li>
-                            <li>Regional level availability of above mentioned sophisticated, clinical services, so that
-                                people dependency on Dhaka reduced.</li>
-                            <li>Better, efficient, professional hospital/healthcare sector management, operation,
-                                sales/marketing in country.</li>
-                            <li>Bangladesh become self-reliant on medical equipment, devices, kits, reagents, medical
-                                furniture now import.</li>
-                            <li>International standard super specialty, multi-specialty hospital establishment in regional &
-                                national level.</li>
-                            <li>International standard Medical College, University, Nursing College/university establishment
-                                in Bangladesh.</li>
+                            <li>Doctors, Public Health Expert, Biomedical Equipment Specialist, Laboratory Technician,
+                                Nurses, Pharmacist</li>
+                            <li>Healthcare Researcher, Healthcare Sales/Marketing Expert</li>
+                            <li>Hospital/diagnostic center, Nursing Institute and any other healthcare project
+                                Architect, Interior Decoration Expert</li>
+                            <li>Hospital/healthcare project Civil Engineering Consultant, Mechanical/Electrical/Plumbing
+                                (MEP) Consultant, Humidity/Ventilation/Air Condition (HVAC) Consultant</li>
+                            <li>Oracle Certified Programmer &amp; hospital IT expert</li>
+                            <li>Chartered Accountant, Advocate, Banker</li>
+                            <li>All types of hospital/healthcare project licenses, certification, permission
+                                expert</li>
                         </ul>
                     </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
                 </div>
             </div>
         </div>
@@ -1177,67 +1406,6 @@
 
     <!--contact area ends-->
 
-    <!--Brand area starts-->
-
-    <div class="brand-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>Our Brands</h2>
-                        <p class="line-one"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-                        <img src="./frontend-assets/images/brand/brand-1.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="./frontend-assets/images/brand/brand-2.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="./frontend-assets/images/brand/brand-3.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-                        <img src="./frontend-assets/images/brand/brand-4.png" alt="brand image">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-                        <img src="./frontend-assets/images/brand/brand-5.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="./frontend-assets/images/brand/brand-6.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="./frontend-assets/images/brand/brand-7.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-                        <img src="./frontend-assets/images/brand/brand-8.png" alt="brand image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Brand area ends-->
 
     <!--Footer Area Starts-->
 
