@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <style>
         .custom-ul {
@@ -71,76 +70,6 @@
         }
 
     </style>
-
-
-    <!-- <style>
-        Basic styles for dropdown
-        .navbar-nav .dropdown-menu {
-            display: none; /* Hide the dropdown by default */
-            position: absolute; /* Position it relative to the parent */
-            z-index: 1000; /* Ensure it appears above other elements */
-            padding: 0; /* Remove padding */
-            margin: 0; /* Remove margin */
-            list-style: none; /* Remove bullet points */
-            background-color: white; /* Set background color for visibility */
-            border: 1px solid #ccc; /* Add border for the dropdown */
-            width: 200px; /* Set a width for the dropdown */
-        }
-
-        /* Show dropdown on hover */
-        .navbar-nav .dropdown:hover .dropdown-menu {
-            display: block; /* Show the dropdown when hovering over the parent */
-        }
-
-        /* Styling for the list items */
-        .navbar-nav .dropdown-menu li {
-            display: block; /* Make items block-level for stacking */
-        }
-
-        /* Links in dropdown */
-        .navbar-nav .dropdown-menu a {
-            display: block; /* Make links block-level */
-            padding: 10px 15px; /* Add padding for clickable area */
-            text-decoration: none; /* Remove underline */
-            color: #333; /* Set text color */
-        }
-
-        /* Optional: Change link color on hover */
-        .navbar-nav .dropdown-menu a:hover {
-            background-color: #aeb5bc; /* Change background color on hover */
-        }
-
-        /* Make sure dropdown has proper alignment */
-        .navbar-nav .dropdown {
-            position: relative; /* Allow absolute positioning of dropdown */
-        }
-
-        /* Align dropdown to the left edge of the parent menu */
-        .navbar-nav .dropdown-menu {
-            left: 0; /* Aligns the dropdown with the left edge of the main menu item */
-            top: 100%; /* Position it directly below the parent menu item */
-            width: auto; /* Auto width or set fixed width as needed */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow for depth */
-        }
-
-        /* Optional: Smooth transition when hovering */
-        .navbar-nav .dropdown-menu {
-            transition: opacity 0.3s ease-in-out;
-            opacity: 0;
-        }
-
-        .navbar-nav .dropdown:hover .dropdown-menu {
-            opacity: 1;
-        }
-
-        .nav>li>a {
-            padding: 10px 5px!important;
-        }
-
-    </style> -->
-
-
-
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -186,7 +115,6 @@
         <div class="container">
             <div class="row">
                 <!--main menu starts-->
-
                 <div class="col-md-12">
                     <div class="main-menu">
                         <div class="navbar navbar-cus">
@@ -207,35 +135,37 @@
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
                                         <li class="dropdown">
-                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#about">About Us <span class="caret"></span></a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="#brands">Our Brand</a></li>
-                                                <li><a href="#vision">Our Vision</a></li>
-                                                <li><a href="#what-we-do">What we do</a></li>
-                                                <li><a href="#what-we-offer">What we offer</a></li>
-                                                <li><a href="#messages">Our Message</a></li>
-                                                <li><a href="#testimonial">Testimonial</a></li>
+                                                <li><a class="smooth-menu" href="#who-we-are">Who we are</a></li>
+                                                <li><a class="smooth-menu" href="#vision">Our Vision</a></li>
+                                                <li><a class="smooth-menu" href="#what-we-do">What we do</a></li>
                                             </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu" href="#projects">Projects</a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="smooth-menu" href="#services">Services</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="smooth-menu" href="#portfolio">Projects</a>
+                                            <a class="smooth-menu" href="#biomedical-equipment">Equipment</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="smooth-menu" href="#biomedical-equipment">Biomedical Equipment</a>
+                                            <a class="smooth-menu" href="#salse-and-marketing">Marketing</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#testimonial">Healthcare <span class="caret"></span></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#salse-and-marketing">Sales & Marketing</a></li>
-                                                <li><a href="#information-technology">Information Technology</a></li>
-                                                <li><a href="#innovation">Our Innovation</a></li>
-                                            </ul>
+                                            <a class="smooth-menu" href="#information-technology">IT</a>
                                         </li>
                                         <li><a class="smooth-menu" href="#speciality">Speciality</a></li>
-                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                        <li class="dropdown">
+                                            <a class="smooth-menu dropdown-toggle" data-toggle="dropdown" href="#">Contact <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="smooth-menu" href="#contact">Contact Us</a></li>
+                                                <li><a class="smooth-menu" href="#messages">Our Message</a></li>
+                                                <li><a class="smooth-menu" href="#brands">Our Brand</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -291,80 +221,63 @@
     </div>
     <!--Banner area ends-->
 
-    <div class="about-area section-padding" style="background-color: rgb(241, 199, 199);">
+    <div class="bg-main-cat section-padding" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <p class="line-one"></p>
                     <h1 style="text-align: center;">About Us</h1>
+                    <p class="line-one"></p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Brand area starts-->
-    <div id="brands" class="brand-area section-padding">
+    <!--who-we-are area starts-->
+    <div class="who-we-are-area section-padding" id="who-we-are">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>Our Brands</h2>
-                        <p class="line-one"></p>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div style="text-align: left;">
+                        <h2>Who we are?</h2>
+                        <!-- <h3>Full Stack Developer</h3> -->
+                        <p>We are a group of professionals with long experience &amp; expertise in various fields, those
+                            required to plan, design, implement/construct, operating/managing, marketing/sales of any
+                            types of hospital/healthcare project. We also have significant expertise in the areas of
+                            biomedical equipment, hospital/healthcare project sales/marketing, healthcare
+                            educational/institutional set up, healthcare research/survey, healthcare financing,
+                            investment along with healthcare IT, staffs training/capacity development etc.</p>
+                        <p><br><b>The professionals included in our team are –</b></p>
+                        <ul class="custom-ul">
+                            <li>Doctors, Public Health Expert, Biomedical Equipment Specialist, Laboratory Technician,
+                                Nurses, Pharmacist</li>
+                            <li>Healthcare Researcher, Healthcare Sales/Marketing Expert</li>
+                            <li>Hospital/diagnostic center, Nursing Institute and any other healthcare project
+                                Architect, Interior Decoration Expert</li>
+                            <li>Hospital/healthcare project Civil Engineering Consultant, Mechanical/Electrical/Plumbing
+                                (MEP) Consultant, Humidity/Ventilation/Air Condition (HVAC) Consultant</li>
+                            <li>Oracle Certified Programmer &amp; hospital IT expert</li>
+                            <li>Chartered Accountant, Advocate, Banker</li>
+                            <li>All types of hospital/healthcare project licenses, certification, permission
+                                expert</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-                        <img src="./frontend-assets/images/brand/brand-1.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="./frontend-assets/images/brand/brand-2.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="./frontend-assets/images/brand/brand-3.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-                        <img src="./frontend-assets/images/brand/brand-4.png" alt="brand image">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-                        <img src="./frontend-assets/images/brand/brand-5.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="./frontend-assets/images/brand/brand-6.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="./frontend-assets/images/brand/brand-7.png" alt="brand image">
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-                        <img src="./frontend-assets/images/brand/brand-8.png" alt="brand image">
-                    </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
                 </div>
             </div>
         </div>
     </div>
-    <!--Brand area ends-->
-    
+    <!--who-we-are area ends-->
+
     <!--vision area starts-->
-    <div class="vision-area section-padding" id="vision">
+    <div class="bg-gray section-padding" id="vision">
         <div class="container">
             <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 60px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
                         <h2>Our Vision</h2>
@@ -388,33 +301,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 60px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
-                </div>
             </div>
         </div>
     </div>
     <!--vision area ends-->
-
+    
     <!--what-we-do area starts-->
-    <div class="what-we-do-area section-padding" id="what-we-do">
+    <div class="section-padding" id="what-we-do">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 70px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about2.jpg"  class="img-responsive" alt="about image">
-                    <p style="margin-top: 10px;"><b>Healthcare management:</b></p>
-                    <ul class="custom-ul">
-                        <li>Management Committee formation, organogram preparation, staffing</li>
-                        <li>Technical, operational, sales/marketing, financial, administrative, policy
-                            management</li>
-                        <li>Specific management support, detailed planning, technical guidance for diagnostic
-                            laboratory, Operation Theatre Complex, Out Patient Services (OPD), individual clinical
-                            services department/center, Nursing services, store/stock management,
-                            Finance/Accounting, Field Marketing, Quality Assurance etc.</li>
-                        <li>Taking partial or full management, operational, marketing, business responsibility of
-                            hospital/healthcare project, if required</li>
-                    </ul>
-                </div>
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
                         <h2>What we do?</h2>
@@ -448,6 +343,21 @@
                             <li>Any other support, if required</li>
                         </ul>
                     </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 70px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about2.jpg"  class="img-responsive" alt="about image">
+                    <p style="margin-top: 10px;"><b>Healthcare management:</b></p>
+                    <ul class="custom-ul">
+                        <li>Management Committee formation, organogram preparation, staffing</li>
+                        <li>Technical, operational, sales/marketing, financial, administrative, policy
+                            management</li>
+                        <li>Specific management support, detailed planning, technical guidance for diagnostic
+                            laboratory, Operation Theatre Complex, Out Patient Services (OPD), individual clinical
+                            services department/center, Nursing services, store/stock management,
+                            Finance/Accounting, Field Marketing, Quality Assurance etc.</li>
+                        <li>Taking partial or full management, operational, marketing, business responsibility of
+                            hospital/healthcare project, if required</li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
@@ -537,172 +447,152 @@
     </div>
     <!--what-we-do area ends-->
 
-    <!--what-we-offer area starts-->
-    <div class="what-we-offer-area section-padding" id="what-we-offer">
+
+
+    <!--projects area starts-->
+    <div class="bg-main-cat section-padding" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <p class="line-one"></p>
+                    <h1 style="text-align: center;">Projects</h1>
+                    <p class="line-one"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
-                        <h2>Who we are?</h2>
-                        <!-- <h3>Full Stack Developer</h3> -->
-                        <p>We are a group of professionals with long experience &amp; expertise in various fields, those
-                            required to plan, design, implement/construct, operating/managing, marketing/sales of any
-                            types of hospital/healthcare project. We also have significant expertise in the areas of
-                            biomedical equipment, hospital/healthcare project sales/marketing, healthcare
-                            educational/institutional set up, healthcare research/survey, healthcare financing,
-                            investment along with healthcare IT, staffs training/capacity development etc.</p>
-                        <p><br><b>The professionals included in our team are –</b></p>
+                        <p><b>Clinical services delivery projects Hospitalbanai.com can offer:</b><br></p>
                         <ul class="custom-ul">
-                            <li>Doctors, Public Health Expert, Biomedical Equipment Specialist, Laboratory Technician,
-                                Nurses, Pharmacist</li>
-                            <li>Healthcare Researcher, Healthcare Sales/Marketing Expert</li>
-                            <li>Hospital/diagnostic center, Nursing Institute and any other healthcare project
-                                Architect, Interior Decoration Expert</li>
-                            <li>Hospital/healthcare project Civil Engineering Consultant, Mechanical/Electrical/Plumbing
-                                (MEP) Consultant, Humidity/Ventilation/Air Condition (HVAC) Consultant</li>
-                            <li>Oracle Certified Programmer &amp; hospital IT expert</li>
-                            <li>Chartered Accountant, Advocate, Banker</li>
-                            <li>All types of hospital/healthcare project licenses, certification, permission
-                                expert</li>
+                            <li>A low cost (normal type) diagnostic center</li>
+                            <li>A standard or specialized diagnostic & consultation center</li>
+                            <li>A Nationwide low-cost chain diagnostic center (with investment cost of two/few centers)</li>
+                            <li>Individual pharmacy project</li>
+                            <li>Nationwide chain pharmacy project</li>
+                            <li>Advanced Genetic & Molecular Laboratory</li>
+                            <li>A General hospital of 200/300/400/500 beds</li>
+                            <li>A specialized medical center hospital (ICU, CCU, NICU, PICU, Dialysis center, Asthma center, Diabetic center, Oncology & Chemotherapy center all other medicine related services but no surgical facilities)</li>
+                            <li>A Specialized Cardiac center & hospital</li>
+                            <li>A Specialized Nephrology & Dialysis center</li>
+                            <li>A Specialized Diabetic & Hormone healthcare center/hospital</li>
+                            <li>A Specialized Pediatric hospital</li>
+                            <li>A Specialized Hemato-Oncology center with Chemotherapy</li>
+                            <li>A specialized Neurology & Mental Rehabilitation center</li>
+                            <li>A specialized Asthma center & Chest disease hospital</li>
+                            <li>A specialized Gastroenterology & Hepatic healthcare center/hospital</li>
+                            <li>International standard Physiotherapy & physical rehabilitation center</li>
+                            <li>A specialized Surgical center hospital (sophisticated Neuro & brain surgery, Orthopedic & spine surgery, Open heart surgery, Cardiothoracic surgery, Gastroenterology & hepatic surgery, plastic & reconstructive surgery, Oncology & palliative surgery, Urology, Bariatric surgery)</li>
+                            <li>A specialized Orthopedic & spine surgery center hospital</li>
+                            <li>A specialized plastic, reconstructive surgery, Cosmetic & Bariatric surgery center</li>
+                            <li>An international standard Medical Infertility center hospital (with all assisted reproductive surgical facilities available)</li>
+                            <li>A super specialized/multi specialized hospital (300/400/500/above beds)</li>
+                            <li>First ever only for female hospital (a new concept)</li>
+                            <li>A specialized Gynecology & Obstetrics center hospital</li>
+                            <li>Geriatric care center & hospital</li>
+                            <li>Specialized Organ Transplantation Center (with foreign collaboration)</li>
+                            <li>Hospital automation, digitalization with help of AI (Artificial Intelligence)</li>
+                            <li>A super specialized hospital & healthcare park</li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 20px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about2.jpg"  class="img-responsive" alt="about image">
+                    <div style="text-align: left;">
+                        <p style="margin-top: 10px;"><b>List of Medical Education delivery related healthcare projects Hospitalbanai.com can offer (with foreign technical collaboration):</b></p>
+                        <ul class="custom-ul">
+                            <li>Medical Assistant Training Center (MATS)</li>
+                            <li>Nursing Institute</li>
+                            <li>Nursing College</li>
+                            <li>A private Medical College (along with hospital)</li>
+                            <li>Specialized Public health institute & training center (new concept)</li>
+                            <li>Specialized healthcare professional training center (Autism workers, Nurses, Technicians) – new concept</li>
+                            <li>Specialized medical & healthcare research & survey institute</li>
+                            <li>Applied pharmaceutical, biomedical, biological sales training & survey institute (new concept)</li>
+                        </ul>
+                    </div>
+                    <div style="text-align: left;">
+                        <p style="margin-top: 10px;"><b>List of Medical Education delivery related healthcare projects Hospitalbanai.com can offer (with foreign technical collaboration):</b></p>
+                        <ul class="custom-ul">
+                            <li>Medical syringe, needle & other medical consumables products manufacturing plant</li>
+                            <li>Pharmaceutical products manufacturing plant (of any products lines)</li>
+                            <li>Manufacturing plant of any biosimilar, biotechnological products (with technical collaboration with relevant foreign company)</li>
+                            <li>Medical furniture manufacturing factory</li>
+                            <li>Any medical equipments manufacturing plant (with technical collaboration with a relevant foreign manufacturing company)</li>
+                            <li>Diagnostic reagent manufacturing plant (technical collaboration with foreign company)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div style="text-align: left;">
+                    <p><br><b>Healthcare social services Hospitalbanai.com can facilitate & implement for clients: </b></p>
+                        <ul class="custom-ul">
+                            <li>A rural based primitive primary healthcare delivery center</li>
+                            <li>An urban based primitive primary healthcare delivery center</li>
+                            <li>A safe delivery center for rural women</li>
+                            <li>A community Doctor chamber & (normal type) low-cost diagnostic center</li>
+                            <li>A community based maternal & child nutrition project</li>
+                            <li>Village rural dispensary chain along with vaccination center</li>
+                            <li>Water & sanitation project for rural poor</li>
+                            <li>A specialized Mother & Childcare center (rural or urban based)</li>
+                            <li>Any types of hospital based social works sponsored by any domestic or foreign corporate houses or business</li>
+                            <li>Any types of community based social healthcare works sponsored by any domestic or foreign corporate houses or business</li>
+                            <li>Safe home with healthcare center for senior citizens</li>
+                            <li>Safe home with healthcare for orphans</li>
+                        </ul>
+                    </div>
+                    <div style="text-align: left;">
+                        <p><br><b>What Hospitalbanai.com can do for existing hospital/healthcare project? </b></p>
+                        <ul class="custom-ul">
+                            <li>Reorganization of managerial, executive, clinical service, supporting, marketing staff structure and functions</li>
+                            <li>Detailed management, technical, operational support, guidance, consultation works for improving any types of existing hospital/healthcare project (managerial capacity, operational efficiency, sales/marketing performance, commercial viability, long term strategic business plan)</li>
+                            <li>Practical, hands-on healthcare marketing/sales training to improve performance of sales force of any hospital/healthcare project</li>
+                            <li>Practical, innovative pharmaceutical sales training, sales excellence & research</li>
+                            <li>Practical, innovative sales/marketing technical consultancy for any types of Biomedical, Biological products</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 80px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                    <img src="./frontend-assets/images/about/about2.jpg"  class="img-responsive" alt="about image">
                 </div>
             </div>
         </div>
     </div>
-    <!--what-we-offer area ends-->
-
-    <!--Messages Area Starts-->
-    <div id="messages" class="messages-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>Our Message For Clients</h2>
-                        <p class="line-one"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    <div style="text-align: left;">
-                        <p>
-                        <ul class="custom-ul">
-                            <li>We don’t tell clients “You require to do 300/500 beds hospital”. We try to understand &
-                                feel our clients' dream & expectations on his/her projects.</li>
-                            <li>We have more than 100 different types of project design already prepared, ranging from
-                                20 lac Bangladeshi taka to over 2 billion US Dollar (over 20000 crore BDT).</li>
-                            <li>We can adjust, plan & design projects with any budget amount.</li>
-                            <li>If we cannot be like family members, trusted & respected by our clients, we feel a bit
-                                discomfort for doing works for that client.</li>
-                            <li>We believe client & hospital/healthcare project consultant formal terms should not be
-                                like CEO/Chairman vs hired Consultant. This creates gaps & harms the project.</li>
-                            <li>We do not believe in marketing using Facebook, LinkedIn posts, YouTube videos, or other
-                                digital marketing methods. We hope that our clients would be sure of our honesty,
-                                integrity, professionalism, and technical ability before they call us.</li>
-                            <li>We greatly focus on our reputation & respect in the market much more than work or
-                                consultancy fees.</li>
-                            <li>We do not do all works for money; if it seems to us that doing any particular project
-                                might harm our integrity, we would not do it.</li>
-                            <li>Our shareholders & partners are sound professionals with notable positions in our own
-                                fields, where we are engaged.</li>
-                            <li>This company might be the first (or among very few) of its kind in hospital/healthcare
-                                Advisory/Consultancy services in Bangladesh.</li>
-                            <li>For progressing the healthcare sector/systems, this company was long overdue. We would
-                                try to help our domestic clients, our foreign partners/companies, and the Government
-                                through our best efforts to increase the quality, sophistication, and advancement of our
-                                healthcare sector.</li>
-                            <li>We do not follow history or tradition much; we follow our heart, our desire to try to
-                                change our healthcare system and its future.</li>
-                        </ul>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Messages Area Ends-->
-
-    <!--Testimonial Section Starts-->
-    <div id="testimonial" class="testimonial-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>What Clients Say</h2>
-                        <p class="line-one"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="review-area">
-                        <div id="testimonial-carousel" class="owl-carousel owl-theme">
-                            <div class="single-testi text-center item">
-                                <div class="testi-img">
-                                    <img src="./frontend-assets/images/testimonial/testi-1.jpg" alt="testimonial image">
-                                
-                                </div>
-                                <div class="block-quote">
-                                    <p>My Experience working with Mason has been very positive. I always receive quality
-                                        service from him. I highly recommend this guy to everyone because I think he is
-                                        one a of kind.</p> <!--edit here-->
-                                    <h2>Jane Doe</h2> <!--edit here-->
-                                    <h3>CEO, Houston</h3> <!--edit here-->
-                                </div>
-                            </div>
-                            <div class="single-testi text-center item">
-                                <div class="testi-img">
-                                    <img src="./frontend-assets/images/testimonial/testi-2.jpg" alt="testimonial image">
-                                
-                                </div>
-                                <div class="block-quote">
-                                    <p>My Experience working with Mason has been very positive. I always receive quality
-                                        service from him. I highly recommend this guy to everyone because I think he is
-                                        one a of kind.</p> <!--edit here-->
-                                    <h2>Michelle Jones</h2> <!--edit here-->
-                                    <h3>GM, Motorolla</h3> <!--edit here-->
-                                </div>
-                            </div>
-                            <div class="single-testi text-center item">
-                                <div class="testi-img">
-                                    <img src="./frontend-assets/images/testimonial/testi-3.jpg" alt="testimonial image">
-                                
-                                </div>
-                                <div class="block-quote">
-                                    <p>My Experience working with Mason has been very positive. I always receive quality
-                                        service from him. I highly recommend this guy to everyone because I think he is
-                                        one a of kind.</p> <!--edit here-->
-                                    <h2>James Franco</h2> <!--edit here-->
-                                    <h3>CEO, Madison</h3> <!--edit here-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Testimonial Section Ends-->
+    <!--projects area ends-->
 
     <!--Services Area Starts-->
-    <div id="services" class="services-area section-padding">
+    <!-- <div class="bg-main-cat section-padding" id="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
                     <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Our Services</h2>
+                        <h2 style="text-align: center;">Our Services</h2>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div> -->
+
+    <div class="bg-main-cat section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <p class="line-one"></p>
+                    <h1 style="text-align: center;">Our Services</h1>
+                    <p class="line-one"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services-area section-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
@@ -840,402 +730,24 @@
     </div>
     <!--Services Area Ends-->
 
-    <!--number area starts-->
-    <div class="number-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <div class="single-number text-center">
-                        <i class="fa fa-clock-o"></i>
-                        <h2 class="counter">100</h2>
-                        <p>Completed Project</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="single-number text-center">
-                        <i class="fa fa-code"></i>
-                        <h2 class="counter">50</h2>
-                        <p>On Going Project</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="single-number text-center">
-                        <i class="fa fa-user"></i>
-                        <h2 class="counter">150</h2>
-                        <p>Happy Client</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="single-number text-center">
-                        <i class="fa fa-trophy"></i>
-                        <h2 class="counter">47</h2>
-                        <p>Awards Won</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--number area ends-->
 
-    <!--Portfolio Area Starts-->
-    <div id="portfolio" class="portfolio-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>Our Projects</h2>
-                        <p class="line-one"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="portfolio-items">
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-                        <div id="inline-popups" class="port-box">
-                            <a href="#test-popup" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-                                    <img src="./frontend-assets/images/portfolio/port1.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project One</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-                                <div class="col-md-7 col-xs-12">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port1.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5 col-xs-12">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Reebok</p> <!--edit here-->
-                                                    <p>15/03/2018</p> <!--edit here-->
-                                                    <p>WordPress Site</p> <!--edit here-->
-                                                    <p>www.reebok.com</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-
-                        <div id="inline-popups-2">
-                            <a href="#test-popup-2" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-
-                                    <img src="./frontend-assets/images/portfolio/port2.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project Two</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup-2" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-
-                                <div class="col-md-7">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port2.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>SportsDirect</p> <!--edit here-->
-                                                    <p>15/03/2018</p> <!--edit here-->
-                                                    <p>Joomla Site</p> <!--edit here-->
-                                                    <p>www.sportsdirect.com</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-
-                        <div id="inline-popups-3">
-                            <a href="#test-popup-3" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-
-                                    <img src="./frontend-assets/images/portfolio/port3.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project Three</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup-3" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-
-                                <div class="col-md-7">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port3.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Sainsbury</p> <!--edit here-->
-                                                    <p>15/03/2018</p> <!--edit here-->
-                                                    <p>Drupal Site</p> <!--edit here-->
-                                                    <p>www.sainsbury.co.uk</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-
-                        <div id="inline-popups-4">
-                            <a href="#test-popup-4" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-
-                                    <img src="./frontend-assets/images/portfolio/port4.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project Four</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup-4" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port4.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Woolworths</p> <!--edit here-->
-                                                    <p>25/03/2018</p> <!--edit here-->
-                                                    <p>Shopify Site</p> <!--edit here-->
-                                                    <p>www.woolworths.co.au</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-
-                        <div id="inline-popups-5">
-                            <a href="#test-popup-5" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-
-                                    <img src="./frontend-assets/images/portfolio/port5.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project Five</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup-5" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port5.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Titan</p> <!--edit here-->
-                                                    <p>15/03/2018</p> <!--edit here-->
-                                                    <p>Magento Site</p> <!--edit here-->
-                                                    <p>www.titan.co.in</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
-
-                        <div id="inline-popups-6">
-                            <a href="#test-popup-6" data-effect="mfp-zoom-out">
-                                <div class="hovereffect">
-
-                                    <img src="./frontend-assets/images/portfolio/port6.jpg" alt="portfolio image"
-                                        class="img-responsive"> <!--edit image-->
-                                    <div class="overlay">
-                                        <h2>Project Six</h2> <!--your project name-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit.
-                                            Accusantium mollitia obcaecati quos.</p>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="por-img">
-                                        <img src="./frontend-assets/images/portfolio/port6.jpg" alt="portfolio image"
-                                            class="img-responsive"> <!--edit image-->
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus
-                                            deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
-                                        <div class="por-text-details">
-                                            <div class="row">
-                                                <div class="col-xs-4">
-                                                    <p>Client: </p>
-                                                    <p>Completed:</p>
-                                                    <p>Type:</p>
-                                                    <p>link:</p>
-                                                </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Vodafone</p> <!--edit here-->
-                                                    <p>27/03/2018</p> <!--edit here-->
-                                                    <p>PrestaShop Site</p> <!--edit here-->
-                                                    <p>www.vodafone.com</p> <!--edit here-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div> <!--end portfolio grid -->
-
-            </div>
-
-
-        </div>
-    </div>
-    <!--Portfolio Area Ends-->
-
-
+    
     <!--biomedical-equipment Area Starts-->
-    <div id="biomedical-equipment" class="biomedical-equipment-area section-padding">
+    <div class="bg-main-cat section-padding" id="biomedical-equipment">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Biomedical Equipment</h2>
+                        <h1 style="text-align: center;">Equipment</h1>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="biomedical-equipment-area section-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
@@ -1284,21 +796,24 @@
             </div>
         </div>
     </div>
-    <!--Speciality Area Ends-->
-
+    <!--biomedical-equipment Area Ends-->
 
     <!--salse-and-marketing Area Starts-->
-    <div id="salse-and-marketing" class="salse-and-marketing-area section-padding">
+    <div class="bg-main-cat section-padding" id="salse-and-marketing">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Salse & Marketing</h2>
+                        <h1 style="text-align: center;">Marketing</h1>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="bg-gray section-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
@@ -1342,28 +857,70 @@
                         </p>
                     </div>
                 </div>
-                <!-- <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    
-                </div> -->
             </div>
         </div>
     </div>
     <!--salse-and-marketing Area Ends-->
 
 
+    
     <!--information-technology Area Starts-->
-    <div id="information-technology" class="information-technology-area section-padding">
+    <div class="bg-main-cat section-padding" id="information-technology">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Information Technology</h2>
+                        <h1 style="text-align: center;">Information Technology</h1>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="information-technology-area section-padding">
+        <div class="container">
             <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div style="text-align: left;">
+                        <h3>Healthcare IT</h3>
+                        <p>
+                            <ul class="custom-ul">
+                                <li>Preparation of any kinds of customized, tailor-made software for laboratory, outdoor, indoor, pharmacy, operation theatre, doctor, nursing services, store/stock, accounting department, sales/marketing team, and any other services if required</li>
+                                <li>Capacity development training of all relevant staff on these software</li>
+                                <li>Any types of servicing, maintenance as required for any type of software</li>
+                                <li>Networking setup among departments, software integration, and digital automation as required</li>
+                                <li>Android and iOS apps development (if required)</li>
+                                <li>Web application design and development, web-based and client-server application design and development (if required)</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div style="text-align: left;">
+                        <h3>Our software strengths</h3>
+                        <p>
+                            <ul class="custom-ul">
+                                <li>User friendly</li>
+                                <li>Attractive interface</li>
+                                <li>Application of latest technology</li>
+                                <li>Support for lower version computers</li>
+                                <li>Database-driven software with quick performance</li>
+                                <li>Highly secured system</li>
+                                <li>Online data storage facilities to prevent data loss</li>
+                                <li>Customized software based on clients' requirements</li>
+                                <li>Largest integrated system (24 modules) in Bangladesh</li>
+                                <li>Online/Offline support 24x7</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 50px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 70px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
                         <h3>Our module/software for project</h3>
@@ -1392,83 +949,58 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 50px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
-                    <div style="text-align: left;">
-                        <h3>Healthcare IT</h3>
-                        <p>
-                            <ul class="custom-ul">
-                                <li>Preparation of any kinds of customized, tailor-made software for laboratory, outdoor, indoor, pharmacy, operation theatre, doctor, nursing services, store/stock, accounting department, sales/marketing team, and any other services if required</li>
-                                <li>Capacity development training of all relevant staff on these software</li>
-                                <li>Any types of servicing, maintenance as required for any type of software</li>
-                                <li>Networking setup among departments, software integration, and digital automation as required</li>
-                                <li>Android and iOS apps development (if required)</li>
-                                <li>Web application design and development, web-based and client-server application design and development (if required)</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
-                    <div style="text-align: left;">
-                        <h3>Our software strengths</h3>
-                        <p>
-                            <ul class="custom-ul">
-                                <li>User friendly</li>
-                                <li>Attractive interface</li>
-                                <li>Application of latest technology</li>
-                                <li>Support for lower version computers</li>
-                                <li>Database-driven software with quick performance</li>
-                                <li>Highly secured system</li>
-                                <li>Online data storage facilities to prevent data loss</li>
-                                <li>Customized software based on clients' requirements</li>
-                                <li>Largest integrated system (24 modules) in Bangladesh</li>
-                                <li>Online/Offline support 24x7</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!--information-technology Area Ends-->
 
-
-    <!--innovation Area Starts-->
-    <div id="innovation" class="innovation-area section-padding">
+    
+    <!--Speciality Area Starts-->
+    <div class="bg-main-cat section-padding" id="speciality">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Our Innovations</h2>
+                        <h1 style="text-align: center;">Our Speciality</h1>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="speciality-area section-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
-                        <h3>Innovation & development in healthcare</h3>
+                        <h3>Innovation & development in healthcare:</h3>
                         <p>
                             <ul class="custom-ul">
-                                <li>We have prepared our long & detailed project lists in hospital/healthcare, medical equipment, healthcare research, healthcare marketing, etc., by not observing or following what types of projects went well in Bangladesh before. We have considered what projects are most required for transforming and advancing the healthcare sector, systems, and service delivery in Bangladesh.</li>
-                                <li>We focus on newer ventures for manufacturing medical equipment that Bangladesh currently imports.</li>
-                                <li>Apart from project list/design for our clients, we have our own long-term plan, vision, and mission for our healthcare sector.</li>
-                                <li>We strive to think, write, and prepare designs that are unique, newer, but relevant to our clients' dreams and the country's requirements.</li>
+                                <li>We have prepared our long & detailed project lists in hospital/healthcare, medical equipment, healthcare research, healthcare marketing etc. through not observing or following what type projects went well in Bangladesh before, we have prepared our project lists considering what projects required most for transforming & advancing healthcare sector, systems & service delivery in Bangladesh.</li>
+                                <li>We focus on newer venture for manufacturing medical equipment Bangladesh currently import.</li>
+                                <li>Apart from project list/design for our clients, we do have our own long-term plan, vision, mission for our healthcare sector.</li>
+                                <li>We try to think, write, prepare design which are unique, newer but relevant to our clients dream & country requirement.</li>
                             </ul>
                         </p>
                     </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 50px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 50px 0px 0px 0px !important;">
+                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
                     <div style="text-align: left;">
-                        <h3>Few new project concepts</h3>
+                        <h3>Few new project concepts:</h3>
                         <p>
                             <ul class="custom-ul">
                                 <li>First ever only for female hospital</li>
                                 <li>Nationwide serial diagnostic center (with establishment investment costs of only one/two centers)</li>
-                                <li>Be an entrepreneur in the healthcare sector while you are studying (Entrepreneurship in student life!)</li>
+                                <li>Be entrepreneur in healthcare sector while you are studying (Entrepreneurship in student life!)</li>
                                 <li>Comprehensive, globalized medical tourism</li>
                                 <li>Only for minority hospital</li>
                                 <li>International Certification center on health sciences</li>
@@ -1481,88 +1013,28 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6" style="padding: 50px 0px 0px 0px !important;">
-                    <img src="./frontend-assets/images/about/about.jpg"  class="img-responsive" alt="about image">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--innovation Area Ends-->
-
-
-
-    <!--Speciality Area Starts-->
-    <div id="speciality" class="speciality-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>Our Speciality</h2>
-                        <p class="line-one"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    <div style="text-align: left;">
-                        <h3>Innovation & Development In Healthcare</h3>
-                        <p>
-                            <ul class="custom-ul">
-                                <li>We have prepared our long & detailed project lists in hospital/healthcare, medical equipment, healthcare research, healthcare marketing etc. through not observing or following what type projects went well in Bangladesh before, we have prepared our project lists considering what are those projects required most for transforming & advancing healthcare sector, systems & service delivery in Bangladesh.</li>
-                                <li>Projects like a) First ever only for female hospital b) International standard Infertility center c) Fully functional major organs transplantation center d) Specialized surgical center for all sophisticated surgeries e) Comprehensive Advanced Genetic & Molecular Laboratory f) Comprehensive Physiotherapy & Physical Rehabilitation center – these projects might not be heard much before, but for Bangladesh these are required.</li>
-                                <li>We focus on newer venture for manufacturing medical equipment Bangladesh imports.</li>
-                                <li>Apart from project list/design for our clients, we do have our own long-term plan, vision, mission for our healthcare sector.</li>
-                                <li>We try to think, write, prepare design which are unique, newer but relevant to our clients dream & country requirement.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    <div style="text-align: left;">
-                        <h3>Why we stand separate in healthcare consultancy?</h3>
-                        <p>
-                            <ul class="custom-ul">
-                                <li>We focus on client’s mission, vision, expectations from us and prepare project design, technical/operational details of projects according to client’s expectations.</li>
-                                <li>We do not suggest our clients for big budget, risky project (if client don’t have huge budget), we do project design which can ensure best possible Return On Investment (ROI) using the client budget/fund.</li>
-                                <li>We support client for realizing funds (if required) through all of our technical, operational, networks.</li>
-                                <li>We work for clients dream realization, as his/her family member.</li>
-                                <li>We firmly stand with honesty, integrity, commitment, reputation. If a client project vision is not commercially viable project, we just explain that to him/her and say we do not require consultancy fees. Please do not do this project.</li>
-                                <li>We only engage with highly reputed renowned Architect, Civil Engineer, MEP/HVAC, Interior Decoration consultants for project infrastructure design & construction.</li>
-                                <li>We only engage with renowned international brands/companies or leading & renowned domestic medical equipment, devices and related products supplier.</li>
-                                <li>We take full responsibility not only for making hospital/healthcare project but also all types of training, coaching, technical/operational/managerial support/guidance for that project if required.</li>
-                                <li>We provide maximum amount of staff capacity development, system/process support to our client’s company staffs, so that they can take responsibility & operate the project successfully.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!--Speciality Area Ends-->
 
 
-
-
- 
-
-
-
- 
-
     <!--contact area starts-->
-
-    <div class="contact-area section-padding" id="contact">
+    <div class="bg-main-cat section-padding" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
                         <p class="line-one"></p>
-                        <h2>Contact</h2>
+                        <h1 style="text-align: center;">Contact</h1>
                         <p class="line-one"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="contact-area section-padding" id="">
+        <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -1579,7 +1051,7 @@
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
                         <i class="fa fa-phone"></i>
                         <h2>Phone: </h2>
-                        <p>(+94) 123 456 789</p>
+                        <p>(+880) 132 374 6730</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -1656,12 +1128,126 @@
             </div>
         </div>
     </div>
-
     <!--contact area ends-->
 
+    <!--Messages Area Starts-->
+    <div class="bg-main-cat section-padding" id="messages">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h1 style="text-align: center;">Message</h1>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray messages-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <div style="text-align: left;">
+                        <p>
+                        <h3>Our Message For Clients</h3>
+                        <ul class="custom-ul">
+                            <li>We don’t tell clients “You require to do 300/500 beds hospital”. We try to understand &
+                                feel our clients' dream & expectations on his/her projects.</li>
+                            <li>We have more than 100 different types of project design already prepared, ranging from
+                                20 lac Bangladeshi taka to over 2 billion US Dollar (over 20000 crore BDT).</li>
+                            <li>We can adjust, plan & design projects with any budget amount.</li>
+                            <li>If we cannot be like family members, trusted & respected by our clients, we feel a bit
+                                discomfort for doing works for that client.</li>
+                            <li>We believe client & hospital/healthcare project consultant formal terms should not be
+                                like CEO/Chairman vs hired Consultant. This creates gaps & harms the project.</li>
+                            <li>We do not believe in marketing using Facebook, LinkedIn posts, YouTube videos, or other
+                                digital marketing methods. We hope that our clients would be sure of our honesty,
+                                integrity, professionalism, and technical ability before they call us.</li>
+                            <li>We greatly focus on our reputation & respect in the market much more than work or
+                                consultancy fees.</li>
+                            <li>We do not do all works for money; if it seems to us that doing any particular project
+                                might harm our integrity, we would not do it.</li>
+                            <li>Our shareholders & partners are sound professionals with notable positions in our own
+                                fields, where we are engaged.</li>
+                            <li>This company might be the first (or among very few) of its kind in hospital/healthcare
+                                Advisory/Consultancy services in Bangladesh.</li>
+                            <li>For progressing the healthcare sector/systems, this company was long overdue. We would
+                                try to help our domestic clients, our foreign partners/companies, and the Government
+                                through our best efforts to increase the quality, sophistication, and advancement of our
+                                healthcare sector.</li>
+                            <li>We do not follow history or tradition much; we follow our heart, our desire to try to
+                                change our healthcare system and its future.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Messages Area Ends-->
+
+    <!--Brand area starts-->
+    <div id="brands" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Our Brands</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="./frontend-assets/images/brand/brand-1.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="./frontend-assets/images/brand/brand-2.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="./frontend-assets/images/brand/brand-3.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="./frontend-assets/images/brand/brand-4.png" alt="brand image">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="./frontend-assets/images/brand/brand-5.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="./frontend-assets/images/brand/brand-6.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="./frontend-assets/images/brand/brand-7.png" alt="brand image">
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="./frontend-assets/images/brand/brand-8.png" alt="brand image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Brand area ends-->
 
     <!--Footer Area Starts-->
-
     <div class="footer-area">
         <div class="container">
             <div class="row">
@@ -1675,46 +1261,28 @@
 
     <!--Latest version JQuery-->
     <script src="./frontend-assets/js/jquery-3.2.1.min.js"></script>
-
     <!--Bootstrap js-->
     <script src="./frontend-assets/js/bootstrap.min.js"></script>
-
     <!--Magnific popup js-->
     <script src="./frontend-assets/js/jquery.magnific-popup.js"></script>
-
     <!--Owl Carousel js-->
     <script src="./frontend-assets/js/owl.carousel.js"></script>
-
     <!--Animated headline js-->
     <script src="./frontend-assets/js/jquery.animatedheadline.js"></script>
-
     <!--wow js-->
     <script src="./frontend-assets/js/wow.min.js"></script>
-
     <!--Validator js-->
     <script src="./frontend-assets/js/jquery.waypoints.js"></script>
-
     <!--counter up js-->
     <script src="./frontend-assets/js/jquery.counterup.min.js"></script>
-
     <!--particles js-->
     <script src="./frontend-assets/js/particles.js"></script>
     <script src="./frontend-assets/js/app.js"></script>
-
     <!--Validator js-->
     <script src="./frontend-assets/js/validator.js"></script>
-
     <!--Contact js-->
     <script src="./frontend-assets/js/contact.js"></script>
-
     <!--Main js-->
     <script src="./frontend-assets/js/main.js"></script>
-
-    <script>
-
-    </script>
 </body>
-
-<!-- Mirrored from previews.customer.envatousercontent.com/files/308380582/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2024 21:35:33 GMT -->
-
 </html>

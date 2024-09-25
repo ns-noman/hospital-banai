@@ -537,8 +537,11 @@ canvas{
 /*-------About area css ends--------------*/
 
 /*---------------7. Services area Starts--------------*/
+.bg-main-cat {
+	background: #f1cbd8;
+}
 
-.brand-area {
+.bg-gray {
 	background: #F3F4F3;
 }
 .services-area {
