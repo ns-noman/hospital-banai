@@ -205,7 +205,7 @@ img {
     font-weight: normal;
     color: #ffffff;
     letter-spacing: 2px;
-    margin-top: 10%;
+    margin-top: 6%;
     text-decoration: none;
     overflow: hidden;
 }
@@ -406,12 +406,30 @@ canvas{
     text-align: center;
 }
 
-.welcome-text .intro h2 {
+/* .welcome-text .intro h2 {
     color: #fff;
     font-size: 85px;
     font-weight: 800;
     margin-bottom: 10px;
+} */
+
+.welcome-text .intro h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 8px rgb(97, 96, 96);
 }
+
+.welcome-text .intro h3 {
+    color: rgb(0, 0, 255);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 8px rgb(234, 241, 241);
+}
+
+
 
 .intro h1 {
     color: #ffffff;
@@ -422,6 +440,9 @@ canvas{
 
 .ah-headline.clip .ah-words-wrapper::after {
     background-color: #fff;
+}
+.ah-headline.clip .ah-words-wrapper span b{
+    text-shadow: 3px 3px 6px rgb(3, 26, 26);
 }
 
 .banner-btn {
