@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>HospitalBanai.com - Project Overview</title>
-  <style>
+
+ <style>
     body { font-family: Arial, sans-serif; line-height: 1.6; padding: 2rem; background: #f9f9f9; color: #333; }
     h1, h2, h3 { color: #0c4a6e; }
     pre { background: #eee; padding: 1rem; overflow-x: auto; }
@@ -11,9 +7,6 @@
     a { color: #2563eb; text-decoration: none; }
     a:hover { text-decoration: underline; }
   </style>
-</head>
-<body>
-
   <h1>HospitalBanai.com 🌐</h1>
   <p><strong>HospitalBanai.com</strong> is a modern, responsive healthcare consultancy website built using HTML, CSS, Bootstrap, and JavaScript libraries. It presents the full scope of services for hospital design, planning, and development in Bangladesh.</p>
 
@@ -80,6 +73,3 @@
 
   <hr>
   <p><em>Feel free to fork, customize, or build upon this project.</em></p>
-
-</body>
-</html>
