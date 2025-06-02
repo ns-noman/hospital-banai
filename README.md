@@ -34,27 +34,6 @@
   <blockquote>
     ⚠️ This project uses <strong>HTML fragments</strong> that are designed to be included dynamically (e.g., via PHP includes, Laravel Blade, or JavaScript injection). These files <strong>do not</strong> contain full HTML page structure.
   </blockquote>
-
-  <h2>🚀 How to Use</h2>
-  <p>You can integrate these templates into:</p>
-  <ul>
-    <li>Laravel Blade files</li>
-    <li>PHP-based views using <code>include()</code></li>
-    <li>Static sites using build tools or manual HTML assembly</li>
-  </ul>
-
-  <p>To preview in browser:</p>
-  <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;...&lt;/head&gt;
-&lt;body&gt;
-  &lt;?php include 'partials/header.html'; ?&gt;
-  &lt;?php include 'partials/content-sections.html'; ?&gt;
-  &lt;?php include 'partials/footer.html'; ?&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
   <h2>👨‍💻 Author</h2>
   <p><strong>Nowab Shorif Noman</strong><br>
      Web Application Developer<br>
